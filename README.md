@@ -15,7 +15,7 @@
 **Directores:** Maritza Palacios Medina · Victor Viera Balanta  
 **Grupo de investigación:** COMBA I+D · Universidad Santiago de Cali  
 **Fecha de publicación:** Marzo 2026  
-**Versión:** 1.0.0
+**Versión:** 1.0
 
 ---
 
@@ -57,14 +57,14 @@ Haz clic en el botón correspondiente a cada notebook:
 ## 📂 Estructura del repositorio
 
 ```
-SVM-en-el-dataset-Iris-estudio-exploratorio-y-guias-reproducibles-en-Google-Colab/
-│
-├── notebooks/
-│   ├── SVM_DatasetIris_SinHiperparametros_Articulo.ipynb          # Notebook 1: Sin hiperparámetros
-│   └── SVM_DatasetIris_ConHipermarametros_Articulo.ipynb   # Notebook 2: Con GridSearchCV
+Uso-del-Algoritmo-SVM-para-la-Clasificacion-de-Datos-Publicos-Un-Estudio-Exploratorio/
 │
 ├── data/
 │   └── Iris.csv                                # Dataset Iris (UCI Repository)
+│
+├── notebooks/
+│   ├── SVM_DatasetIris_ConHiperparametros_Articulo.ipynb     # Notebook 1: Con GridSearchCV
+│   └── SVM_DatasetIris_SinHipermarametros_Articulo.ipynb     # Notebook 2: Sin hiperparámetros
 │
 └── README.md
 ```
@@ -75,7 +75,7 @@ SVM-en-el-dataset-Iris-estudio-exploratorio-y-guias-reproducibles-en-Google-Cola
 
 ### Notebook 1 — SVM básico (sin ajuste de hiperparámetros)
 
-**Archivo:** `SVM_DatasetIris_NoHiper_Articulo.ipynb`
+**Archivo:** `SVM_DatasetIris_SinHipermarametros_Articulo.ipynb`
 
 Este notebook es el punto de entrada ideal para quienes están comenzando con SVM. Se trabaja con los parámetros por defecto de scikit-learn y se comparan los 4 kernels disponibles.
 
@@ -125,7 +125,7 @@ Este notebook es el punto de entrada ideal para quienes están comenzando con SV
 
 ### Notebook 2 — SVM avanzado (con GridSearchCV e hiperparámetros)
 
-**Archivo:** `SVM_DatasetIris_Hiperparametros.ipynb`
+**Archivo:** `SVM_DatasetIris_ConHiperparametros_Articulo.ipynb`
 
 Este notebook es la versión extendida. Introduce buenas prácticas como el uso de `Pipeline`, `StandardScaler` y búsqueda de hiperparámetros con `GridSearchCV`. También incluye un modelo base (baseline) de comparación con Regresión Logística.
 
@@ -269,7 +269,7 @@ Si usas este repositorio, sus gráficos o su código en tu trabajo académico, c
 
 **Formato APA:**
 
-> Pesillo Montilla, D. A., & Giraldo Gonzales, J. A. (2026). *Uso del Algoritmo SVM para la Clasificación de Datos Públicos: Un Estudio Exploratorio* [Repositorio de GitHub]. Universidad Santiago de Cali. https://github.com/DiegoPes-04/SVM-en-el-dataset-Iris-estudio-exploratorio-y-guIa-reproducible-en-Google-Colab
+> Pesillo Montilla, D. A., & Giraldo Gonzales, J. A. (2026). *Uso del Algoritmo SVM para la Clasificación de Datos Públicos: Un Estudio Exploratorio* [Repositorio de GitHub]. Universidad Santiago de Cali. https://github.com/DiegoPes-04/Uso-del-Algoritmo-SVM-para-la-Clasificacion-de-Datos-Publicos-Un-Estudio-Exploratorio
 
 **Formato BibTeX:**
 
@@ -279,7 +279,7 @@ Si usas este repositorio, sus gráficos o su código en tu trabajo académico, c
   title        = {Uso del Algoritmo SVM para la Clasificación de Datos Públicos: Un Estudio Exploratorio},
   year         = {2026},
   institution  = {Universidad Santiago de Cali},
-  howpublished = {\url{https://github.com/DiegoPes-04/SVM-en-el-dataset-Iris-estudio-exploratorio-y-guIa-reproducible-en-Google-Colab}},
+  howpublished = {\url{https://github.com/DiegoPes-04/Uso-del-Algoritmo-SVM-para-la-Clasificacion-de-Datos-Publicos-Un-Estudio-Exploratorio}},
   note         = {Trabajo de Grado – Diplomado en Inteligencia Artificial Procesamiento de Lenguaje Natural - PLN}
 }
 ```
